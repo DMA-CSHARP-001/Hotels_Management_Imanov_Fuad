@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "HotelEntities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/HotelEntities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelEntities.dll": {}
+        }
+      },
+      "Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HotelEntities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotelEntities/1.0.0": {
+      "type": "project",
+      "path": "../HotelEntities/HotelEntities.csproj",
+      "msbuildProject": "../HotelEntities/HotelEntities.csproj"
+    },
+    "Repository/1.0.0": {
+      "type": "project",
+      "path": "../Repository/Repository.csproj",
+      "msbuildProject": "../Repository/Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "HotelEntities >= 1.0.0",
+      "Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\azizo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\azizo\\source\\repos\\Hotel_Management\\Hotel_Management\\Hotel_Management.csproj",
+      "projectName": "Hotel_Management",
+      "projectPath": "C:\\Users\\azizo\\source\\repos\\Hotel_Management\\Hotel_Management\\Hotel_Management.csproj",
+      "packagesPath": "C:\\Users\\azizo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\azizo\\source\\repos\\Hotel_Management\\Hotel_Management\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\azizo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\azizo\\source\\repos\\Hotel_Management\\HotelEntities\\HotelEntities.csproj": {
+              "projectPath": "C:\\Users\\azizo\\source\\repos\\Hotel_Management\\HotelEntities\\HotelEntities.csproj"
+            },
+            "C:\\Users\\azizo\\source\\repos\\Hotel_Management\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\azizo\\source\\repos\\Hotel_Management\\Repository\\Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\bin\Debug\net6.0\HotelEntities.deps.json
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\bin\Debug\net6.0\HotelEntities.dll
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\bin\Debug\net6.0\HotelEntities.pdb
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\HotelEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\HotelEntities.AssemblyInfoInputs.cache
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\HotelEntities.AssemblyInfo.cs
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\HotelEntities.csproj.CoreCompileInputs.cache
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\HotelEntities.dll
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\refint\HotelEntities.dll
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\HotelEntities.pdb
+C:\Users\azizo\source\repos\Hotel_Management\HotelEntities\obj\Debug\net6.0\ref\HotelEntities.dll
